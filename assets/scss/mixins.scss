@@ -1,0 +1,31 @@
+// Typographies
+@mixin helvetica-16-regular {
+    font-family: "Helvetica";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  @mixin helvetica-24-bold {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin helvetica-24-regular {
+    font-family: "Helvetica";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  @mixin helvetica-40-bold {
+    font-family: "Helvetica";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  @mixin helvetica-72-bold {
+    font-family: "Helvetica";
+    font-size: 72px;
+    font-weight: 700;
+    line-height: normal;
+  }
