@@ -10,7 +10,7 @@
       <div class="flex">
         <div class="mr-6"><nuxt-link to="/about" class="nav text-black no-underline">About</nuxt-link></div>
         <div class="mr-6"><nuxt-link to="/team" class="nav text-black no-underline">Team</nuxt-link></div>
-        <div><nuxt-link to="/mountain" class="nav text-black no-underline">Mountain</nuxt-link></div>
+        <div><nuxt-link to="/documentation" class="nav text-black no-underline">Documentation</nuxt-link></div>
       </div>
     </div>
     <div class="border-b border-solid border-grey mb-8"></div>
