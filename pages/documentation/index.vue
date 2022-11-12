@@ -2,15 +2,13 @@
   <div class="">
     <h2>{{ name }}</h2>
     <div class="flex flex-row">
-      <div class="flex-none mr-6 bg-gray-200 w-1/4 h-auto px-3">
-        <ul>
-          <p v-if="$fetchState.pending">Loading....</p>
-          <p v-else-if="$fetchState.error">Error while fetching mountains</p>
-          <ul v-else>
-            <li v-for="(mountain, index) in mountains" :key="index">
-              {{ mountain.title }}
-            </li>
-          </ul>
+      <div class="flex mr-6 bg-gray-200 w-1/4 h-auto px-3">
+        <p v-if="$fetchState.pending">Loading....</p>
+        <p v-else-if="$fetchState.error">Error while fetching mountains</p>
+        <ul v-else>
+          <li v-for="(mountain, index) in mountains" :key="index">
+            {{ mountain.title }}
+          </li>
         </ul>
       </div>
       <div class="grow bg-gray-100 h-auto px-10">
@@ -47,11 +45,12 @@ export default {
           hid: "description",
           name: "description",
           content: "Mountain page description",
-        },{
+        },
+        {
           hid: "keywords",
           name: "keywords",
           content: "vuejs, nuxtjs, seo, meta, sitemap, modules",
-        }
+        },
       ],
     };
   },

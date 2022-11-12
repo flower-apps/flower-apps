@@ -3,10 +3,10 @@
     <div class="teaser__inner">
       <h1>FlowerApps</h1>
       <h2>Create your flows with FlowerApps to help automate your business.</h2>
-      <nuxt-link class="teaser__link" to="/posts">Show me Samples</nuxt-link>
+      <nuxt-link class="teaser__link" to="/documentation">Show me Samples</nuxt-link>
       <a
         class="teaser__link teaser__link--dark"
-        href="https://github.com/storyblok/nuxtwebsite"
+        href="https://github.com/flower-apps"
         target="_blank"
         rel="nofollow noopener"
         >Github</a
