@@ -2,6 +2,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/flower-apps/'
+  },
+
   
 
   // Global page headers: https://go.nuxtjs.dev/config-head
