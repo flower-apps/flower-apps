@@ -1,5 +1,5 @@
 <template>
-  <div class="flew flex-col font-sans text-black">
+  <div class="flew flex-col font-sans text-black bg-zinc-50">
     <main-navigation></main-navigation>
     <teaser v-if="$route.path == '/'"></teaser>
     <nuxt keep-alive :keep-alive-props="{ max: 10 }" />

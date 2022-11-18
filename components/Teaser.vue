@@ -22,7 +22,7 @@ export default {
     teaser_styles: function () {
       return {
         backgroundImage: `url('${
-          "nuxt-website.svg"
+          ""
         }')`,
       };
     },
@@ -34,11 +34,11 @@ export default {
 .teaser {
   background-size: cover;
   background-position: bottom;
-  height: 500px;
   text-align: left;
   padding-top: 60px;
   background-repeat: no-repeat;
-  color: #fff;
+  background: rgb(237, 233, 255);
+  color: rgb(10, 10, 10);
 
   h1 {
     margin: 0;
@@ -76,7 +76,7 @@ export default {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background: #42b883;
+  background: rgb(139, 92, 246);
   color: #fff;
   transform: translateY(0px);
   transition: transform 200ms ease;
@@ -86,7 +86,7 @@ export default {
   &:focus {
     text-decoration: none;
     color: #fff;
-    background-color: lighten(#42b883, 5%);
+    background-color: lighten(rgb(139, 92,   246), 15%);
     transform: translateY(-1px);
     border-bottom: 0px;
   }
