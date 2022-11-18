@@ -1,5 +1,5 @@
 <template>
-  <div class="teaser" :style="teaser_styles" v-editable="blok">
+  <div class="md:h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500" v-editable="blok">
     <div class="teaser__inner">
       <h1>FlowerApps</h1>
       <h2>Create your flows with FlowerApps to help automate your business.</h2>
@@ -40,15 +40,15 @@ export default {
   background: rgb(237, 233, 255);
   color: rgb(10, 10, 10);
 
-  h1 {
-    margin: 0;
-    font-size: 3.5em;
-  }
+  // h1 {
+  //   margin: 0;
+  //   font-size: 3.5em;
+  // }
 
-  h1,
-  h2 {
-    font-weight: 300;
-  }
+  // h1,
+  // h2 {
+  //   font-weight: 300;
+  // }
 }
 
 .teaser__inner {
@@ -76,7 +76,7 @@ export default {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  background: rgb(139, 92, 246);
+  background: rgb(194, 53, 130);
   color: #fff;
   transform: translateY(0px);
   transition: transform 200ms ease;
@@ -86,7 +86,7 @@ export default {
   &:focus {
     text-decoration: none;
     color: #fff;
-    background-color: lighten(rgb(139, 92,   246), 15%);
+    background-color: lighten(rgb(194, 53, 130), 5);
     transform: translateY(-1px);
     border-bottom: 0px;
   }
